@@ -11,6 +11,9 @@
 # production
 /build
 
+#storybook
+/storybook-static
+
 # misc
 .DS_Store
 .env.local
@@ -22,3 +25,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+build-storybook.log
+yarn.lock
+.github/workflows/chromatic.yml
